@@ -1,12 +1,12 @@
 //Function to check number
 function run() {
 
-    var param, i, bool = true;
+    let param, i, bool = true;
 
     //get the value from input text - DOM
     param = document.getElementById("input_number").value;
 
-    for (i=2; i <= param -1 ; i++)
+    for (i=2; i < param ; i++)
             if(param % i == 0){
                 bool = false;
                 break;
